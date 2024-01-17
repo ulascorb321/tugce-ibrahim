@@ -42,6 +42,27 @@ body {
     font-family: Courier, monospace;
 }
 
+#celebimage {
+    height: 400px;
+    width: 400px;
+    margin-top: 10%;
+}
+
+.celebdate {
+    margin-top: 20%;
+}
+
+#celebdateh2 {
+    font-size: 70px;
+    font-family: Courier, monospace;
+}
+
+#celebdateh3 {
+    font-size: 40px;
+    margin-top: 5%;
+    font-family: Courier, monospace;
+}
+
 #weddingimage {
     height: 400px;
     width: 400px;
@@ -189,6 +210,25 @@ hr {
     #homapagebutton {
         margin-top: 20%;
         margin-left: 25%;
+    }
+
+    #celebimage {
+        width: 150px;
+        height: 150px;
+        margin-top: 85%;
+        margin-left: 10%;
+    }
+
+    #celebdateh2 {
+        font-size: 35px;
+        margin-top: 80%;
+        text-align: center;
+    }
+
+    #celebdateh3 {
+        font-size: 20px;
+        margin-left: 5%;
+        text-align: center;
     }
 
     #weddingimage {

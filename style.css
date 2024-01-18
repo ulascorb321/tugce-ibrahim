@@ -10,6 +10,7 @@ body {
     width: 500px;
     border-radius: 50%;
     opacity: 95%;
+    filter: drop-shadow(5px 5px 5px rgb(0, 0, 0)) ;
 }
 
 .homapageimage {
@@ -135,6 +136,20 @@ body {
 }
 
 #memoryimg3 {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    opacity: 95%;
+}
+
+#memoryimg4 {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    opacity: 95%;
+}
+
+#memoryimg5 {
     height: 500px;
     width: 500px;
     border-radius: 50%;
@@ -310,6 +325,16 @@ hr {
     }
 
     #memoryimg3{
+        width: 150px;
+        height: 150px;
+    }
+
+    #memoryimg4{
+        width: 150px;
+        height: 150px;
+    }
+
+    #memoryimg5{
         width: 150px;
         height: 150px;
     }

@@ -10,19 +10,21 @@ body {
     width: 500px;
     border-radius: 50%;
     opacity: 95%;
-    filter: drop-shadow(5px 5px 5px rgb(0, 0, 0)) ;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 5px 15px;
 }
 
 .homapageimage {
     margin-left: 63%;
     margin-right: 3%;
     padding-top: 5%;
+
 }
 
 .header {
     margin-top: 5%;
-    margin-left: 8%;
+    /*margin-left: 8%;*/
     position: absolute;
+    width: 100%;
 }
 
 #homapagebutton {
@@ -142,20 +144,6 @@ body {
     opacity: 95%;
 }
 
-#memoryimg4 {
-    height: 500px;
-    width: 500px;
-    border-radius: 50%;
-    opacity: 95%;
-}
-
-#memoryimg5 {
-    height: 500px;
-    width: 500px;
-    border-radius: 50%;
-    opacity: 95%;
-}
-
 .memorydate {
     text-align: center;
     font-size: 30px;
@@ -203,28 +191,43 @@ hr {
 @media (max-width:800px) {
     .header {
         margin-top: 50%;
-        margin-left: 3%;
+        /*margin-left: 3%;*/
     }
 
     #headerh1 {
+        margin-top: 20%;
         font-size: 60px;
+        text-align: center;
     }
 
     #headerh3 {
         font-size: 30px;
-        margin-top: 20%;
+        margin-top: 5%;
         text-align: center;
     }
 
     #homeimg {
-        width: 150px;
-        height: 150px;
-        margin-top: 130%;
+        width: 190px;
+        height: 190px;
+        margin-top: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .homapageimage {
+        margin: auto;
+    }
+
+    .homapagebuttondiv {
+        margin: auto;
+        width: 50%;
     }
 
     #homapagebutton {
-        margin-top: 20%;
-        margin-left: 25%;
+        margin-top: 5%;
+        margin-left: 0%;
+        margin-right: auto;
     }
 
     #celebimage {
@@ -255,7 +258,7 @@ hr {
 
     #dateh2 {
         font-size: 35px;
-       
+
         text-align: center;
     }
 
@@ -309,47 +312,40 @@ hr {
         text-align: center;
     }
 
-    #memoryh1{
+    #memoryh1 {
         font-size: 50px;
         text-align: center;
     }
 
-    #memoryimg1{
+    #memoryimg1 {
         width: 150px;
-        height: 150px;
+        height: 120px;
+        margin-bottom: 5%;
     }
 
-    #memoryimg2{
+    #memoryimg2 {
         width: 150px;
-        height: 150px;
+        height: 120px;
+        margin-bottom: 5%;
     }
 
-    #memoryimg3{
+    #memoryimg3 {
         width: 150px;
-        height: 150px;
+        height: 120px;
+        margin-bottom: 5%;
     }
 
-    #memoryimg4{
-        width: 150px;
-        height: 150px;
-    }
-
-    #memoryimg5{
-        width: 150px;
-        height: 150px;
-    }
-
-    .memorydate{
+    .memorydate {
         font-size: 15px;
     }
 
-    #endh2{
+    #endh2 {
         font-size: 40px;
         text-align: center;
         margin-top: 5%;
     }
 
-    #endh3{
+    #endh3 {
         font-size: 30px;
         text-align: center;
     }

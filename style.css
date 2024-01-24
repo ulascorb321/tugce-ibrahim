@@ -17,14 +17,12 @@ body {
     margin-left: 63%;
     margin-right: 3%;
     padding-top: 5%;
-
 }
 
 .header {
     margin-top: 5%;
-    /*margin-left: 8%;*/
+    margin-left: 8%;
     position: absolute;
-    width: 100%;
 }
 
 #homapagebutton {
@@ -191,7 +189,8 @@ hr {
 @media (max-width:800px) {
     .header {
         margin-top: 50%;
-        /*margin-left: 3%;*/
+        margin-left: 0%;
+        width: 100%;
     }
 
     #headerh1 {
@@ -208,7 +207,7 @@ hr {
 
     #homeimg {
         width: 190px;
-        height: 190px;
+        height: 185px;
         margin-top: 20%;
         display: block;
         margin-left: auto;
@@ -318,21 +317,30 @@ hr {
     }
 
     #memoryimg1 {
-        width: 150px;
+        width: 130px;
         height: 120px;
         margin-bottom: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #memoryimg2 {
-        width: 150px;
+        width: 130px;
         height: 120px;
         margin-bottom: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #memoryimg3 {
-        width: 150px;
+        width: 130px;
         height: 120px;
         margin-bottom: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .memorydate {
